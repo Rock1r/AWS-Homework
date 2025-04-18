@@ -1,0 +1,20 @@
+# Ігноруємо папку .terraform
+.terraform/
+
+# Ігноруємо всі файли стану Terraform
+*.tfstate
+*.tfstate.*
+
+# Ігноруємо локальні файли конфігурацій
+*.tfvars
+*.tfvars.json
+
+# Ігноруємо файл логів Terraform
+crash.log
+
+# Ігноруємо файли, що генеруються через Terraform (наприклад, ключі)
+*.pem
+*.pub
+
+# Ігноруємо файли з кешем збереження робочих даних
+.terraform.lock.hcl
